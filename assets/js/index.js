@@ -47,3 +47,8 @@ $("#btnlogout").click(() => {
 });
 
 getUserInfo();
+
+// 改变文章列表的高亮状态
+function change() {
+  $("#change").attr("class", "layui-this").next().attr("class", "");
+}
